@@ -103,6 +103,6 @@ class Student:
         return f'Экземпляр класса Student {self.first_name} {self.last_name} {self.patronymic_name}: предмет {self.subject}, оценка {self.grade}, результат теста {self.test_res}.'
 
 if __name__ == '__main__':
-    #тестируем
+    #для теста необходимо сохранить файл subjects.csv
     student_test = Student('Наталья', 'Андреевна', 'Кушнир', 'Русский', 5, 100)
     print(student_test)
